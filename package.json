@@ -1,0 +1,20 @@
+{
+  "name": "nuxt2-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi generate",
+    "start": "nuxi preview"
+  },
+  "dependencies": {
+    "core-js": "^3.15.1",
+    "nuxt-edge": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27417467.467ab69",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "std-env": "^3.0.1"
+  }
+}
